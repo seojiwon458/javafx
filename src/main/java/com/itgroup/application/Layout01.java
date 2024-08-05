@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 public class Layout01 extends Application {
     //푸쉬 테스트 철수
     //오늘은 날씨가 업청 더워여
-    //오늘 점신은 시원한 국밥을 먹어요https://github.com/seojiwon458/javafx.git
+    //오늘 점신은 시원한 국밥을 먹어요
     //철수가 먼저 푸쉬함
     @Override
     public void start(Stage stage) throws Exception {
