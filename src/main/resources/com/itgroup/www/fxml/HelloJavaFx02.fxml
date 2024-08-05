@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="139.0" prefWidth="330.0" spacing="25.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.itgroup.controller.HelloJavaFx02Controller">
+   
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <Label text="Hello~~Java FX 연습">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Button mnemonicParsing="false" onAction="#buttonClicked" text="확인">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+   </children>   
+</VBox>

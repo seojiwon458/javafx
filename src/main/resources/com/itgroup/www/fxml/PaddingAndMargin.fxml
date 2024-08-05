@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="259.0" prefWidth="600.0" spacing="10.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: yellow; -fx-opacity: 0.8;">
+         <children>
+            <Button mnemonicParsing="false" text="에스프레소" textAlignment="CENTER">
+               <padding>
+                  <Insets top="10.0" />
+               </padding></Button>
+            <Button alignment="CENTER" mnemonicParsing="false" text="아메리카노" textAlignment="CENTER">
+               <padding>
+                  <Insets top="15.0" />
+               </padding>
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin></Button>
+         </children>
+         <HBox.margin>
+            <Insets top="30.0" />
+         </HBox.margin>
+      </VBox>
+      <VBox prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: green; -fx-opacity: 0.6;">
+         <children>
+            <Button mnemonicParsing="false" text="카푸치노" />
+            <Button mnemonicParsing="false" text="콜드브루">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin></Button>
+         </children>
+      </VBox>
+   </children>
+</HBox>
